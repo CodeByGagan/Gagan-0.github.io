@@ -1,0 +1,91 @@
+div.nav{
+    display:flex;
+    /* border: 2px solid rgb(240, 207, 163); */
+    background-color: antiquewhite;
+    top: 0;
+    margin-left: -8px;
+    margin-right: -8px;
+    position: fixed;
+    width: 100%;
+}
+div.nav ul{
+    display: flex;
+}
+div.nav ul li {
+    margin: 0px 5px;
+    /* padding: 0px 5px; */
+}
+#menu{
+    align-items: end;
+    
+}
+select{
+    background-color:rgb(233, 209, 177);
+     border:none; 
+     /* border-color:rgb(233, 209, 177) ; */
+     border-radius: 15px;
+     color: brown;
+}
+div.product{
+    display: flex;
+}
+.banner{
+    margin: 0 -8.2px;
+    /* width: 100%; */
+}
+.book{
+    margin: 40px;
+}
+p{
+    text-align: justify;
+   
+}
+a{
+    text-decoration: none;
+    color: brown;
+    padding: 0px 5px;
+}
+a:after {
+    content: '';
+    display: block;
+    margin: auto;
+    height: 3px;
+    width: 0px;
+    background: transparent;
+    transition: width .5s ease, background-color .5s ease;
+  }
+  a:hover:after {
+    width: 100%;
+    background: burlywood;
+  }
+h1{
+    color: rgb(8, 131, 145);
+    margin-top: 30px;
+    margin-bottom: -10px;
+}
+h4{
+    color: grey;
+    text-align: right;
+}
+#OP{
+    font-size: 70px;
+}
+#disc{
+    color: brown;
+    font-family: monospace;
+    font-size: 15px;
+    
+}
+footer p, footer a {
+    text-align:center;
+    background-color: antiquewhite;
+    color: brown;
+    margin: -8px;
+    width: 100%;
+    /* bottom: 0%; */
+    position: relative;
+    top: 100%;
+    right: 0%;
+
+  }
+
